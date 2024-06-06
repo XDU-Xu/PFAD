@@ -1,0 +1,45 @@
+image_size: 256
+num_channels: 128
+class_cond: False
+num_res_blocks: 2
+num_heads: 4
+num_head_channels: 64
+resblock_updown: True
+learn_sigma: False
+use_scale_shift_norm: True
+attention_resolutions: 32,16,8
+save_interval: 3000
+clip_denoised: True
+schedule_sampler: "uniform"
+lr: 1e-4
+diffusion_steps: 1000
+weight_decay: 0.0
+noise_schedule: 'linear'
+lr_anneal_steps: 0
+microbatch: -1
+ema_rate: "0.9999"
+log_interval: 10
+fp16_scale_growth: 1e-3
+multi_gpu: None
+gpu_dev: 0
+out_dir: '../results/'
+num_samples: 10000
+num_heads_upsample: -1
+channel_mult: ""
+dropout: 0.0
+use_checkpoint: False
+use_fp16: False
+use_new_attention_order: False
+rescale_learned_sigmas: False
+rescale_timesteps: False
+use_kl: False
+progress: True
+predict_xstart: False
+resume_checkpoint:
+batch_size: 8
+timestep_respacing:
+model_path: '../results/model/brain/brain_HCP.pt'
+patch_size: 16
+gamma_t: 0.7
+middel_removal:
+
