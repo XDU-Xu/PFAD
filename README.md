@@ -1,4 +1,4 @@
-# Motion-Artifact-Removal-in-Pixel-Frequency-Domain-via-Alternate-Masks-and-Diffusion-Model
+# PFAD for motion artifact removal
 This is the codebase for Motion-Artifact-Removal-in-Pixel-Frequency-Domain-via-Alternate-Masks-and-Diffusion-Model. 
 
 This repository is based on [guided-diffusion](https://github.com/openai/guided-diffusion).
