@@ -492,7 +492,7 @@ class GaussianDiffusion:
 
         return result
 
-    def PAFD_sample(
+    def PFAD_sample(
             self,
             model,
             shape,
