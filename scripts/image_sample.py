@@ -48,7 +48,7 @@ def main():
     if args.use_fp16:
         model.convert_to_fp16()
 
-    sample_fn = diffusion.PAFD_sample
+    sample_fn = diffusion.PFAD_sample
     logger.log("sampling...")
 
     # load motion-corrupted image
